@@ -14,7 +14,7 @@
  */
 #include "postgres.h"
 
-#include "access/nbtree.h"
+#include "xnbtree.h"
 #include "storage/lmgr.h"
 
 typedef enum

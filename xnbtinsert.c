@@ -15,8 +15,8 @@
 
 #include "postgres.h"
 
-#include "access/nbtree.h"
-#include "access/nbtxlog.h"
+#include "xnbtree.h"
+#include "xnbtxlog.h"
 #include "access/transam.h"
 #include "access/xloginsert.h"
 #include "lib/qunique.h"

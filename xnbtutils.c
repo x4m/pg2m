@@ -17,7 +17,7 @@
 
 #include <time.h>
 
-#include "access/nbtree.h"
+#include "xnbtree.h"
 #include "access/reloptions.h"
 #include "access/relscan.h"
 #include "catalog/catalog.h"

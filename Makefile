@@ -3,17 +3,17 @@
 MODULE_big = pg2m
 OBJS = \
 	$(WIN32RES) \
-	nbtcompare.o \
-	nbtdedup.o \
-	nbtinsert.o \
-	nbtpage.o \
-	nbtree.o \
-	nbtsearch.o \
-	nbtsort.o \
-	nbtsplitloc.o \
-	nbtutils.o \
-	nbtvalidate.o \
-	nbtxlog.o
+	xnbtcompare.o \
+	xnbtdedup.o \
+	xnbtinsert.o \
+	xnbtpage.o \
+	xnbtree.o \
+	xnbtsearch.o \
+	xnbtsort.o \
+	xnbtsplitloc.o \
+	xnbtutils.o \
+	xnbtvalidate.o \
+	xnbtxlog.o
 
 EXTENSION = pg2m
 DATA = pg2m--1.0.sql

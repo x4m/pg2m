@@ -45,7 +45,7 @@
 
 #include "postgres.h"
 
-#include "access/nbtree.h"
+#include "xnbtree.h"
 #include "access/parallel.h"
 #include "access/relscan.h"
 #include "access/table.h"

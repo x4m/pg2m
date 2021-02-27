@@ -15,7 +15,7 @@
 
 #include "access/amvalidate.h"
 #include "access/htup_details.h"
-#include "access/nbtree.h"
+#include "xnbtree.h"
 #include "access/xact.h"
 #include "catalog/pg_am.h"
 #include "catalog/pg_amop.h"

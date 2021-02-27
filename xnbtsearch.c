@@ -15,7 +15,7 @@
 
 #include "postgres.h"
 
-#include "access/nbtree.h"
+#include "xnbtree.h"
 #include "access/relscan.h"
 #include "miscadmin.h"
 #include "pgstat.h"

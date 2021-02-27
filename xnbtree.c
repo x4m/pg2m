@@ -18,8 +18,8 @@
  */
 #include "postgres.h"
 
-#include "access/nbtree.h"
-#include "access/nbtxlog.h"
+#include "xnbtree.h"
+#include "xnbtxlog.h"
 #include "access/relscan.h"
 #include "access/xlog.h"
 #include "commands/progress.h"

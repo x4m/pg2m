@@ -15,7 +15,7 @@
 #include "postgres.h"
 
 #include "access/nbtree.h"
-#include "access/nbtxlog.h"
+#include "xnbtxlog.h"
 #include "miscadmin.h"
 #include "utils/rel.h"
 
