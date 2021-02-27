@@ -1,0 +1,5 @@
+# pg2m extension
+comment = 'pgm access method - Piecewise Geometric Model based index'
+default_version = '1.0'
+module_pathname = '$libdir/pg2m'
+relocatable = true
